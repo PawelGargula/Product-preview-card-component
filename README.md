@@ -9,6 +9,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
+  - [Time to complete](#Time-to-complete)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -34,6 +35,10 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://pawelgargula.github.io/product-preview-card-component/)
 
 ## My process
+
+### Time to complete
+
+Made it in about 10 hours
 
 ### Built with
 
