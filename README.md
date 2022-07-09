@@ -6,10 +6,11 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshot mobile](#screenshot-mobile)
+  - [Screenshot desktop](#screenshot-desktop)
   - [Links](#links)
 - [My process](#my-process)
-  - [Time to complete](#Time-to-complete)
+  - [Time to complete](#time-to-complete)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -24,10 +25,13 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
+### Screenshot mobile
 
-![](screenshots/Desktop_1920x1080.png)
 ![](screenshots/mobile_375x667.png)
+
+### Screenshot desktop
+
+![](screenshots/desktop_1920x1080.png)
 
 ### Links
 
