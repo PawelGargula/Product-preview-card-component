@@ -13,25 +13,28 @@
 }
 
 body {
+    align-items: center;
     background-color: var(--body-color);
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3rem 1.8rem;
 }
 
 section {
     --border-radius: 1rem;
-    --vertical-margin: 2.8rem;
     background-color: white;
     border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
-    margin: var(--vertical-margin) 1.6rem;
-    min-height: calc(100vh - var(--vertical-margin) * 2);
 }
 
 img {
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
+    display: block;
     width: 100%;
 }
 
@@ -39,8 +42,7 @@ img {
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
+    gap: 4rem;
 }
 
 header p {
@@ -83,6 +85,7 @@ button {
     border: none;
     border-radius: 0.8rem;
     color: white;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -92,6 +95,41 @@ button {
     width: 100%;
 }
 
+button:hover {
+    background-color: hsl(156deg 42% 18%);
+}
+
 button::before {
     content: url('images/icon-cart.svg');
+}
+
+.attribution {
+    background-color: rgba(255, 255, 255, .8);
+    bottom: 0;
+    font-size: .9rem;
+    padding: 0.5rem;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+@media (orientation: landscape) and (min-width: 800px) {
+    section {
+        flex-direction: row;
+        width: 55rem;
+    }
+
+    img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: var(--border-radius);
+    }
+
+    .content {
+        justify-content: space-between;
+        width: 100%;
+    }
 }
